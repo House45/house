@@ -49,7 +49,7 @@ class Utilities:
 
         if pixel_value < 0:
             pixel_value = 0
-        elif pixel_value > 255:
-            pixel_value = 255
+        elif pixel_value > 245:
+            pixel_value = 245
 
         return pixel_value
